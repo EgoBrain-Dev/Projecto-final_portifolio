@@ -74,6 +74,15 @@ main{
   grid-column: 2;
 }
 
+#ficha > h1{
+  text-align: center;
+  font-size: 2em;
+}
+
+#ficha > p{
+  text-align: justify;
+}
+
 .foto{
 width: 200px;
 
@@ -263,6 +272,23 @@ footer{
   #skill-container{
     grid-template-columns: 1fr 1fr;
 }
+
+main{
+  grid-template-columns: auto 300px 1fr auto;
+}
+
+#ficha{
+  grid-column: 2 / 3;
+  height: fit-content;
+  position: sticky;
+  top: 65px;
+}
+
+#detalhes{
+  grid-column: 3 / 4;
+  margin-top: 20px;
+}
+
 
 .projecto{
   flex-direction: row-reverse;
